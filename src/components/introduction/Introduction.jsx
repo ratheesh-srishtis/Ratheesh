@@ -1,4 +1,4 @@
-import person from "../../assets/images/person.png";
+import person from "../../assets/images/ratheesh.jpg";
 import "./introduction.css";
 import InformationSummary from "./InformationSummary";
 
@@ -7,17 +7,17 @@ const informationSummaryData = [
   {
     id: 1,
     title: "Experience",
-    description: "15 Y.",
+    description: "4+ Years",
   },
   {
     id: 2,
     title: "Projects Completed",
-    description: "250+",
+    description: "50+",
   },
   {
     id: 3,
     title: "Happy Clients",
-    description: "58",
+    description: "25+",
   },
 ];
 
@@ -32,14 +32,16 @@ const Introduction = () => {
           <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
             Hello, I’m
             <span className="text-nowrap shrink-0 inline-block w-full">
-              Brooklyn Gilbert
+              Ratheesh R
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            I'm a Freelance <span className="bg-highlight">UI/UX Designer</span>{" "}
-            and <span className="bg-highlight"> Developer</span> based in
-            London, England. I strives to build immersive and beautiful web
-            applications through carefully crafted code and user-centric design.
+            I’m a{" "}
+            <span className="bg-highlight"> Freelance Web Developer </span>
+            based in India. I design and develop web applications that help
+            startups and businesses build fast, scalable, and user-friendly
+            products. My focus is on creating solutions that not only look great
+            but also solve real problems and deliver measurable results.
           </p>
           <p className="text-center lg:text-start">
             <a
